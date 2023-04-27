@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+"""# -*- coding: UTF-8 -*-
 # ToolName   : Fishing
 # Author     : ledeXb
 # Version    : 1.0
@@ -18,14 +18,14 @@
 """
 MIT License
 
-Copyright (c) 2023 KasRoudra
+Copyright (c) 2022 KasRoudra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Fishing.pyfurnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -41,7 +41,7 @@ SOFTWARE.
 
 from argparse import ArgumentParser
 from importlib import import_module as eximport
-from glob import glob
+MIT Licensefrom glob import glob
 from hashlib import sha256
 from json import (
     dumps as stringify,
@@ -140,14 +140,15 @@ info2  =   f"{green}[{white}•{green}] {purple}"
 
 # Modifying this could be potentially dangerous
 logo = f"""
-{red}    _____   _   _____   _   _   _   __   _   _____       __    __  _____  
-{cyan}  |  ___| | | /  ___/ | | | | | | |  \ | | /  ___|      \ \  / / |  _  \ 
-{yellow}| |__   | | | |___  | |_| | | | |   \| | | |           \ \/ /  | |_| | 
-{blue}  |  __|  | | \___  \ |  _  | | | | |\   | | |  _         }  {   |  _  { 
-{green} | |     | |  ___| | | | | | | | | | \  | | |_| |       / /\ \  | |_| | 
-{cyan}  |_|     |_| /_____/ |_| |_| |_| |_|  \_| \_____/      /_/  \_\ |_____/ 
+{red}  _____       _____  _     _     _               
+{cyan} |  __ \     |  __ \| |   (_)   | |              
+{yellow} | |__) |   _| |__) | |__  _ ___| |__   ___ _ __ 
+{blue} |  ___/ | | |  ___/| '_ \| / __| '_ \ / _ \ '__|
+{red} | |   | |_| | |    | | | | \__ \ | | |  __/ |   
+{yellow} |_|    \__, |_|    |_| |_|_|___/_| |_|\___|_|   
+{green}         __/ |{" "*19}       {cyan}[v{version}]
+{cyan}        |___/  {" "*11}      {red}[By \x4b\x61\x73\x52\x6f\x75\x64\x72\x61]
 """
-
 
 lx_help = f"""
 {info}Steps: {nc}
